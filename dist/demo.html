@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>tippy-tooltip demo</title>
+<script src="./tippy-tooltip.umd.js"></script>
+<link rel="stylesheet" href="./tippy-tooltip.css">
+<tippy-tooltip></tippy-tooltip>
+<script>
+        let linkElem = document.createElement('link');
+        linkElem.setAttribute('rel', 'stylesheet');
+        linkElem.setAttribute('href', './tippy-tooltip.css');
+        document.getElementsByTagName("tippy-tooltip")[0].shadowRoot.appendChild(linkElem);
+</script>
